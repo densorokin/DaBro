@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 0.37.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./pc-api-9149230729965963081-183-a486c30e49e2.json",
+        "track": "internal"
+      },
+      "ios": {
+        "appleId": "meams.team@gmail.com",
+        "ascAppId": "1597706560",
+        "appleTeamId": "52Q2F546Z5"
+      }
+    }
+  }
+}
